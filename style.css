@@ -3,27 +3,13 @@
 <head>
 <title>Baking 101 - Page 2</title>
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        padding: 40px;
-    }
-    h2 { margin-top: 20px; }
-    .figure {
-        width: 250px;
-        height: 180px;
-        border: 2px solid #999;
-        background: #eee;
-        margin: 20px 0;
-    }
-    .recipe-title {
-        font-size: 28px;
-        margin-top: 20px;
-    }
-    .section-title {
-        font-size: 22px;
-        margin-top: 20px;
-        font-weight: bold;
-    }
+    body { font-family: Arial, sans-serif; padding: 40px; text-align: center; }
+    h2 { font-size: 28px; margin-top: 20px; }
+    .figure { width: 260px; height: 190px; border: 2px solid #999; background: #eee; margin: 20px auto; }
+    .recipe-title { font-size: 28px; margin-top: 20px; }
+    .section-title { font-size: 22px; margin-top: 20px; font-weight: bold; }
+    .nav { margin-top: 40px; display: flex; justify-content: space-between; padding: 0 60px; }
+    a { color: #0066cc; text-decoration: underline; }
 </style>
 </head>
 <body>
@@ -51,5 +37,11 @@ Pour into greased loaf pan.<br>
 Bake 20–25 minutes until golden brown.
 </p>
 
+<div class="nav">
+    <a href="index.html">← Back</a>
+    <a href="page3.html">Next Page →</a>
+</div>
+
 </body>
 </html>
+
