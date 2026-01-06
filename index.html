@@ -6,22 +6,43 @@
     body {
         font-family: Arial, sans-serif;
         padding: 40px;
+        text-align: center;
     }
-    h1 { font-size: 40px; margin-bottom: 40px; }
-    h2 { margin-top: 40px; }
+
+    h1 { font-size: 42px; margin-bottom: 10px; }
+
+    .start-button {
+        display: inline-block;
+        font-size: 26px;
+        margin-bottom: 40px;
+        color: #0066cc;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    h2 { font-size: 28px; margin-top: 40px; }
+
     .figure {
-        width: 250px;
-        height: 180px;
+        width: 260px;
+        height: 190px;
         border: 2px solid #999;
         background: #eee;
-        margin: 20px 0;
+        margin: 20px auto;
+    }
+
+    .next {
+        margin-top: 40px;
+        display: inline-block;
+        color: #0066cc;
+        text-decoration: underline;
     }
 </style>
 </head>
 <body>
 
 <h1>Baking 101</h1>
-<p>Start</p>
+
+<a href="page2.html" class="start-button">Start</a>
 
 <h2>Easy</h2>
 <div class="figure"></div>
@@ -32,6 +53,7 @@
 <h2>Hard</h2>
 <div class="figure"></div>
 
+<a href="page2.html" class="next">Next Page →</a>
+
 </body>
 </html>
-
