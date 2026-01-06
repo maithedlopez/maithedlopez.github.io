@@ -1,0 +1,74 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fff8f0;
+    color: #5b3a29;
+}
+
+/* Slide general style */
+.slide {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* Slide 1 */
+.slide1 {
+    background-color: #fff8f0;
+}
+.slide1 h1 {
+    font-size: 3rem;
+    color: #d4a373; /* warm brown */
+}
+.slide1 p {
+    font-size: 1.5rem;
+    color: #facc15; /* yellow accent */
+}
+
+/* Slide 2 */
+.slide2 {
+    background-color: #fff;
+}
+.slide2 h2 {
+    color: #5b3a29;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.card {
+    background-color: #fef3c7; /* pale yellow */
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 150px;
+    font-weight: 700;
+}
+
+/* Slide 3 */
+.slide3 {
+    background-color: #fdf6f0;
+}
+.slide3 h2 {
+    color: #d97706;
+}
+.slide3 p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+button {
+    background-color: #fbbf24;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 700;
+    color: #5b3a29;
+    transition: transform 0.2s;
+}
+button:hover {
+    transform: scale(1.05);
+}
