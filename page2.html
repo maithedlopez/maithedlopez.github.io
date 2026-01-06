@@ -6,11 +6,30 @@
     body {
         background-color: #E6E0FA;
         font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 60px 0;
         text-align: center;
-        padding: 40px;
     }
 
-    h1 { font-size: 42px; margin-bottom: 10px; }
+    .border-box {
+        background: white;
+        border: 6px solid #C7B7F5;
+        border-radius: 25px;
+        width: 70%;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    .cupcake {
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 42px;
+        color: #4A2E9F;
+        margin-bottom: 20px;
+    }
 
     .start-button {
         font-size: 26px;
@@ -21,10 +40,14 @@
         display: inline-block;
     }
 
-    h2 { font-size: 28px; margin-top: 40px; }
+    h2 {
+        font-size: 28px;
+        margin-top: 30px;
+        color: #4A2E9F;
+    }
 
     .next {
-        margin-top: 50px;
+        margin-top: 40px;
         display: inline-block;
         color: #4A2E9F;
         text-decoration: underline;
@@ -33,22 +56,19 @@
 </head>
 <body>
 
-<h1>Baking 101</h1>
+<div class="border-box">
+    <div class="cupcake">🧁</div>
 
-<a href="page3.html" class="start-button">Start</a>
+    <h1>Baking 101</h1>
 
-<h2>Easy</h2>
-<h2>Regular</h2>
-<h2>Hard</h2>
+    <a href="page3.html" class="start-button">Start</a>
 
-<a href="page3.html" class="next">Next Page →</a>
+    <h2>Easy</h2>
+    <h2>Regular</h2>
+    <h2>Hard</h2>
 
-</body>
-</html>
-
-
-<a href="page3.html" class="next">Next Page →</a>
+    <a href="page3.html" class="next">Next Page →</a>
+</div>
 
 </body>
 </html>
-
